@@ -4,20 +4,67 @@
     <title>Aula de Web</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     
+    <style type="text/css">
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+    </style>
+
 </head>
 <body>
     
 
 <p>
-
     Aula de Web, do dia 25/02/2022
-
 </p>
 
 <marquee >
 Texto que anda, brabão
 </marquee>
 
+<h1>display: flex;</h1>
+<section class="container flex">
+	<div class="item">Teste 1</div>
+	<div class="item">Teste 2</div>
+	<div class="item">Teste 3</div>
+	<div class="item">Teste 4</div>
+</section>
 
 
 </body>
